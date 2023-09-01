@@ -1,0 +1,40 @@
+body {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-image:url(img/background.jpg);
+}
+
+.heading {
+    background-color:lightblue;
+    display:flex;
+    justify-content:flex-end;
+}
+h1 {
+    font-size:20px;
+    padding-right:10px;
+    
+}
+
+ul {
+   background-color:darkblue;
+   list-style-type:none;
+}
+a {
+    color:white;
+    gap:4px;
+}
+.images {
+    display:flex;
+    flex-direction:column;
+    margin-left:30px;
+}
+.fruLorem {
+    width:30%;
+}
+.herrLorem {
+    width:40%;
+}
+h3 {
+    color:white;
+}
